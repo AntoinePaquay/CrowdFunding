@@ -1,4 +1,4 @@
-﻿CREATE TABLE [dbo].[Transactions]
+﻿CREATE TABLE [dbo].[Transaction]
 (
 	[Id] INT NOT NULL IDENTITY (1, 1),
 	[MemberId] INT NOT NULL,
