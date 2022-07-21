@@ -1,0 +1,6 @@
+C:\Users\paqua\source\repos\Database\Database\bin\Debug\CrowdFunding.Database.dacpac
+C:\Users\paqua\source\repos\Database\Database\bin\Debug\Database.dll
+C:\Users\paqua\source\repos\Database\Database\bin\Debug\Database.pdb
+C:\Users\paqua\source\repos\Database\Database\obj\Debug\CrowdFunding.Database.sqlproj.AssemblyReference.cache
+C:\Users\paqua\source\repos\Database\Database\obj\Debug\Database.dll
+C:\Users\paqua\source\repos\Database\Database\obj\Debug\Database.pdb

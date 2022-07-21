@@ -1,0 +1,6 @@
+C:\Users\paqua\source\repos\Database\Database\bin\Debug\Labo_ASP_CrowFunding.Database.dacpac
+C:\Users\paqua\source\repos\Database\Database\obj\Debug\Labo_ASP_CrowFunding.Database.sqlproj.AssemblyReference.cache
+C:\Users\paqua\source\repos\Database\Database\obj\Debug\Database.dll
+C:\Users\paqua\source\repos\Database\Database\obj\Debug\Database.pdb
+C:\Users\paqua\source\repos\Database\Database\bin\Debug\Database.dll
+C:\Users\paqua\source\repos\Database\Database\bin\Debug\Database.pdb

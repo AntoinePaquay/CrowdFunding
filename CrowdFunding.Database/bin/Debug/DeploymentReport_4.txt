@@ -1,0 +1,37 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[Article] (Table)
+       [dbo].[Comment] (Table)
+       [dbo].[Member] (Table)
+       [dbo].[PrivateMessage] (Table)
+       [dbo].[Project] (Table)
+       [dbo].[ProjectCategory] (Table)
+       [dbo].[Reward] (Table)
+       [dbo].[Transactions] (Table)
+       [dbo].[DF_Member_Created] (Default Constraint)
+       [dbo].[DF_Reward_Created] (Default Constraint)
+       [dbo].[FK_Article_Project] (Foreign Key)
+       [dbo].[FK_Comment_Member] (Foreign Key)
+       [dbo].[FK_Comment_Project] (Foreign Key)
+       [dbo].[FK_Project_Member] (Foreign Key)
+       [dbo].[FK_Project_ProjectCategory] (Foreign Key)
+       [dbo].[FK_Reward_Project] (Foreign Key)
+       [dbo].[FK_Transaction_Member] (Foreign Key)
+       [dbo].[FK_Transaction_Project] (Foreign Key)
+       [dbo].[CK_Project_Closing] (Check Constraint)
+       [dbo].[CK_Project_Opening] (Check Constraint)
+       [dbo].[CK_Reward_Price] (Check Constraint)
+       [dbo].[CK_Reward_Stock] (Check Constraint)
+       [dbo].[CK_Transaction_Amount] (Check Constraint)
+
+** Supporting actions

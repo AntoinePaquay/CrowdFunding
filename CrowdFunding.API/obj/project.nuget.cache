@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "oyg8DqLyXjS5Ghwnz1DX+DSOyC32uBf/4+UxoVORBZIjcoh0Tdrv2uTJgoAYjl5TG0Us3C9Hsb3dbypMBEtGOQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\paqua\\source\\repos\\CrowdFunding\\CrowdFunding.API\\CrowdFunding.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\paqua\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\paqua\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\paqua\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\paqua\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\paqua\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\paqua\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
