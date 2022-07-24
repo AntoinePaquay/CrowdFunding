@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "40myEZ+87WOvDRNIHw1TJQRw6TYg0W0X+ppJJ6UZ3t/WF2JjMXjSy+l0XHwVetIElgS1yt4Vq4O1ou/rEs2MSQ==",
+  "dgSpecHash": "zZyi0T7nwFh7UhKJmKDibv3Y7SBPikc7QYaOZPhFvGNfIMTuReW43BgM5TSqPmx66EZJGAbfFfqL0BWel1p2HQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\paqua\\source\\repos\\CrowdFunding\\CrowdFunding.DAL\\CrowdFunding.DAL.csproj",
+  "projectFilePath": "C:\\Users\\paqua\\source\\repos\\CrowdFunding\\CrowdFunding.DAL\\CrowdFunding.DAL.EF.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\paqua\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\paqua\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

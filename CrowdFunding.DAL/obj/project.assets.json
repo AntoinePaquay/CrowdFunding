@@ -1870,9 +1870,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\paqua\\source\\repos\\CrowdFunding\\CrowdFunding.DAL\\CrowdFunding.DAL.csproj",
-      "projectName": "CrowdFunding.DAL",
-      "projectPath": "C:\\Users\\paqua\\source\\repos\\CrowdFunding\\CrowdFunding.DAL\\CrowdFunding.DAL.csproj",
+      "projectUniqueName": "C:\\Users\\paqua\\source\\repos\\CrowdFunding\\CrowdFunding.DAL\\CrowdFunding.DAL.EF.csproj",
+      "projectName": "CrowdFunding.DAL.EF",
+      "projectPath": "C:\\Users\\paqua\\source\\repos\\CrowdFunding\\CrowdFunding.DAL\\CrowdFunding.DAL.EF.csproj",
       "packagesPath": "C:\\Users\\paqua\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\paqua\\source\\repos\\CrowdFunding\\CrowdFunding.DAL\\obj\\",
       "projectStyle": "PackageReference",

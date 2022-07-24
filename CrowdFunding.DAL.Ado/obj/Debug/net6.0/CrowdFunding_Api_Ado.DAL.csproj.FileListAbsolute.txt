@@ -1,0 +1,5 @@
+D:\Visual studio Exo\Projet_Vacance\CrownFunding\CrowdFunding_Api_Ado\obj\Debug\net6.0\CrowdFunding_Api_Ado.DAL.csproj.AssemblyReference.cache
+D:\Visual studio Exo\Projet_Vacance\CrownFunding\CrowdFunding_Api_Ado\obj\Debug\net6.0\CrowdFunding_Api_Ado.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Visual studio Exo\Projet_Vacance\CrownFunding\CrowdFunding_Api_Ado\obj\Debug\net6.0\CrowdFunding_Api_Ado.DAL.AssemblyInfoInputs.cache
+D:\Visual studio Exo\Projet_Vacance\CrownFunding\CrowdFunding_Api_Ado\obj\Debug\net6.0\CrowdFunding_Api_Ado.DAL.AssemblyInfo.cs
+D:\Visual studio Exo\Projet_Vacance\CrownFunding\CrowdFunding_Api_Ado\obj\Debug\net6.0\CrowdFunding_Api_Ado.DAL.csproj.CoreCompileInputs.cache

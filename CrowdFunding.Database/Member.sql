@@ -8,7 +8,6 @@
 	[PasswordHash] CHAR(97) NOT NULL,
 	[BirthDate] DATE NOT NULL,
 	[Image] VARCHAR(200) NULL,
-	[RegisterDate] DateTime NOT NULL,
 	[Created] DateTime2 NOT NULL,
 	[LastModified] DateTime2 NULL
 

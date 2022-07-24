@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CrowdFunding.DAL.Ado\CrowdFunding.DAL.Ado.csproj" />
+  </ItemGroup>
+
 </Project>

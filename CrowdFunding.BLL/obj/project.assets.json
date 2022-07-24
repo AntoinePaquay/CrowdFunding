@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "CrowdFunding.DAL.Ado/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/CrowdFunding.DAL.Ado.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CrowdFunding.DAL.Ado.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "CrowdFunding.DAL.Ado/1.0.0": {
+      "type": "project",
+      "path": "../CrowdFunding.DAL.Ado/CrowdFunding.DAL.Ado.csproj",
+      "msbuildProject": "../CrowdFunding.DAL.Ado/CrowdFunding.DAL.Ado.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "CrowdFunding.DAL.Ado >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\paqua\\.nuget\\packages\\": {},
@@ -38,7 +57,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\paqua\\source\\repos\\CrowdFunding\\CrowdFunding.DAL.Ado\\CrowdFunding.DAL.Ado.csproj": {
+              "projectPath": "C:\\Users\\paqua\\source\\repos\\CrowdFunding\\CrowdFunding.DAL.Ado\\CrowdFunding.DAL.Ado.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
