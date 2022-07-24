@@ -1,11 +1,11 @@
-﻿using DAL;
+﻿using CrowdFunding.DAL.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BLL
+namespace CrowdFunding.BLL.Entities
 {
     public class MemberEntity : IEntity<int>
     {
@@ -17,7 +17,6 @@ namespace BLL
         public string PasswordHash { get; set; } = null!;
         public DateTime BirthDate { get; set; }
         public string? Image { get; set; }
-        public DateTime RegisterDate { get; set; }
         public DateTime Created { get; set; }
         public DateTime? LastModified { get; set; }
     }

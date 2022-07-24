@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CrowdFunding.BLL.Services
 {
-    public class CommentService
+    public class CommentService 
     {
     }
 }

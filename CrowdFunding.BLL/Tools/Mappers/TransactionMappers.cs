@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BLL
+namespace CrowdFunding.BLL.Mappers
 {
     public static class TransactionMappers
     {
-        public static BLL.TransactionEntity ToBLL(this DAL.TransactionEntity e)
+        public static BLL.Entities.TransactionEntity ToBLL(this DAL.Entities.TransactionEntity e)
         {
-            return new BLL.TransactionEntity()
+            return new BLL.Entities.TransactionEntity()
             {
                 Id = e.Id,
                 MemberId = e.MemberId,
@@ -21,9 +21,9 @@ namespace BLL
             };
         }
 
-        public static DAL.TransactionEntity ToDAL(this BLL.TransactionEntity e)
+        public static DAL.Entities.TransactionEntity ToDAL(this BLL.Entities.TransactionEntity e)
         {
-            return new DAL.TransactionEntity()
+            return new DAL.Entities.TransactionEntity()
             {
                 Id = e.Id,
                 MemberId = e.MemberId,

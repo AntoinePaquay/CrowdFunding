@@ -1,4 +1,7 @@
-﻿using System;
+﻿using CrowdFunding.DAL.Entities;
+using CrowdFunding.DAL.Interfaces;
+using CrowdFunding.DAL.Repositories;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
@@ -7,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace DAL
 {
-    public class RewardRepository:RepoBase<int,RewardEntity>,IRewardRepo
+    public class RewardRepository:RepositoryBase<int,RewardEntity>,IRewardRepository
     {
         public RewardRepository(IDbConnection connection)
             :base(connection,"Reward","Id")

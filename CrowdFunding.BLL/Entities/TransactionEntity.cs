@@ -1,11 +1,11 @@
-﻿using DAL;
+﻿using CrowdFunding.DAL.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BLL
+namespace CrowdFunding.BLL.Entities
 {
     public class TransactionEntity : IEntity<int>
     {

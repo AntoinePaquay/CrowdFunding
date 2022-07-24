@@ -1,4 +1,7 @@
-﻿using System;
+﻿using CrowdFunding.DAL.Entities;
+using CrowdFunding.DAL.Interfaces;
+using CrowdFunding.DAL.Repositories;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
@@ -7,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace DAL
 {
-    public class TransactionRepository:RepoBase<int,TransactionEntity>,ITransactionRepo
+    public class TransactionRepository:RepositoryBase<int,TransactionEntity>,ITransactionRepository
     {
         public TransactionRepository(IDbConnection connection)
             :base(connection,"Transaction","Id")

@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BLL
+namespace CrowdFunding.BLL.Mappers
 {
     public static class PrivateMessageMappers
     {
-        public static BLL.PrivateMessageEntity ToBLL(this DAL.PrivateMessageEntity e)
+        public static BLL.Entities.PrivateMessageEntity ToBLL(this DAL.Entities.PrivateMessageEntity e)
         {
-            return new BLL.PrivateMessageEntity()
+            return new BLL.Entities.PrivateMessageEntity()
             {
                 Id = e.Id,
                 Created = e.Created,
@@ -21,9 +21,9 @@ namespace BLL
             };
         }
 
-        public static DAL.PrivateMessageEntity ToDAL(this BLL.PrivateMessageEntity e)
+        public static DAL.Entities.PrivateMessageEntity ToDAL(this BLL.Entities.PrivateMessageEntity e)
         {
-            return new DAL.PrivateMessageEntity()
+            return new DAL.Entities.PrivateMessageEntity()
             {
                 Id = e.Id,
                 Created = e.Created,

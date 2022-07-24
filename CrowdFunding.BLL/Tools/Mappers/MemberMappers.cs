@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BLL
+namespace CrowdFunding.BLL.Mappers
 {
     public static class MemberMappers
     {
-        public static BLL.MemberEntity ToBLL(this DAL.MemberEntity e)
+        public static BLL.Entities.MemberEntity ToBLL(this DAL.Entities.MemberEntity e)
         {
-            return new BLL.MemberEntity()
+            return new BLL.Entities.MemberEntity()
             {
                 Id = e.Id,
                 Image = e.Image,
@@ -21,14 +21,13 @@ namespace BLL
                 LastName = e.LastName,
                 FirstName = e.FirstName,
                 PasswordHash = e.PasswordHash,
-                RegisterDate = e.RegisterDate,
                 Username = e.Username
             };
         }
 
-        public static DAL.MemberEntity ToDAL(this BLL.MemberEntity e)
+        public static DAL.Entities.MemberEntity ToDAL(this BLL.Entities.MemberEntity e)
         {
-            return new DAL.MemberEntity()
+            return new DAL.Entities.MemberEntity()
             {
                 Id = e.Id,
                 Image = e.Image,
@@ -39,7 +38,6 @@ namespace BLL
                 LastName = e.LastName,
                 FirstName = e.FirstName,
                 PasswordHash = e.PasswordHash,
-                RegisterDate = e.RegisterDate,
                 Username = e.Username
             };
         }
