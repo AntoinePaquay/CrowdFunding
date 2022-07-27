@@ -8,7 +8,7 @@ namespace CrowdFunding.BLL.Mappers
 {
     public static class RewardMappers
     {
-        public static BLL.Entities.RewardEntity ToBLL(DAL.Entities.RewardEntity e)
+        public static BLL.Entities.RewardEntity ToBLL(this DAL.Entities.RewardEntity e)
         {
             return new BLL.Entities.RewardEntity()
             {
@@ -24,7 +24,7 @@ namespace CrowdFunding.BLL.Mappers
             };
         }
 
-        public static DAL.Entities.RewardEntity ToDAL(BLL.Entities.RewardEntity e)
+        public static DAL.Entities.RewardEntity ToDAL(this BLL.Entities.RewardEntity e)
         {
             return new DAL.Entities.RewardEntity()
             {
