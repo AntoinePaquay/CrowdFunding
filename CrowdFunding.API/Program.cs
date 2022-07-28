@@ -15,6 +15,25 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IArticleService, ArticleService>();
 builder.Services.AddScoped<IArticleRepository, ArticleRepository>();
 
+builder.Services.AddScoped<ICommentService, CommentService>();
+builder.Services.AddScoped<ICommentRepository, CommentRepository>();
+
+builder.Services.AddScoped<IMemberService, MemberService>();
+builder.Services.AddScoped<IMemberRepository, MemberRepository>();
+
+builder.Services.AddScoped<IPrivateMessageService, PrivateMessageService>();
+builder.Services.AddScoped<IPrivateMessageRepository, PrivateMessageRepository>();
+
+builder.Services.AddScoped<IProjectService, ProjectService>();
+builder.Services.AddScoped<IProjectRepository, ProjectRepository>();
+
+builder.Services.AddScoped<IRewardService, RewardService>();
+builder.Services.AddScoped<IRewardRepository, RewardRepository>();
+
+builder.Services.AddScoped<ITransactionService, TransactionService>();
+builder.Services.AddScoped<ITransactionRepository, TransactionRepository>();
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

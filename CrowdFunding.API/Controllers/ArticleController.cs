@@ -12,7 +12,7 @@ namespace CrowdFunding.API.Controllers
         [HttpGet]
         public IActionResult GetAll()
         {
-            return Get
+            return GetAll();
         }
 
         // GET api/<ArticleController>/5

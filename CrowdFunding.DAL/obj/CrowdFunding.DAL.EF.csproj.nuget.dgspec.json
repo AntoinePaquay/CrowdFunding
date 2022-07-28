@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\paqua\\source\\repos\\CrowdFunding\\CrowdFunding.DAL\\CrowdFunding.DAL.EF.csproj": {}
+    "D:\\Visual studio Exo\\Projet_Vacance\\CrowndFunding\\CrowdFunding.DAL\\CrowdFunding.DAL.EF.csproj": {}
   },
   "projects": {
-    "C:\\Users\\paqua\\source\\repos\\CrowdFunding\\CrowdFunding.DAL\\CrowdFunding.DAL.EF.csproj": {
+    "D:\\Visual studio Exo\\Projet_Vacance\\CrowndFunding\\CrowdFunding.DAL\\CrowdFunding.DAL.EF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\paqua\\source\\repos\\CrowdFunding\\CrowdFunding.DAL\\CrowdFunding.DAL.EF.csproj",
+        "projectUniqueName": "D:\\Visual studio Exo\\Projet_Vacance\\CrowndFunding\\CrowdFunding.DAL\\CrowdFunding.DAL.EF.csproj",
         "projectName": "CrowdFunding.DAL.EF",
-        "projectPath": "C:\\Users\\paqua\\source\\repos\\CrowdFunding\\CrowdFunding.DAL\\CrowdFunding.DAL.EF.csproj",
-        "packagesPath": "C:\\Users\\paqua\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\paqua\\source\\repos\\CrowdFunding\\CrowdFunding.DAL\\obj\\",
+        "projectPath": "D:\\Visual studio Exo\\Projet_Vacance\\CrowndFunding\\CrowdFunding.DAL\\CrowdFunding.DAL.EF.csproj",
+        "packagesPath": "C:\\Users\\adrie\\.nuget\\packages\\",
+        "outputPath": "D:\\Visual studio Exo\\Projet_Vacance\\CrowndFunding\\CrowdFunding.DAL\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\paqua\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\adrie\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -74,7 +70,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

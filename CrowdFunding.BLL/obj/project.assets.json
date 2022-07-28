@@ -27,24 +27,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\paqua\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\adrie\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\paqua\\source\\repos\\CrowdFunding\\CrowdFunding.BLL\\CrowdFunding.BLL.csproj",
+      "projectUniqueName": "D:\\Visual studio Exo\\Projet_Vacance\\CrowndFunding\\CrowdFunding.BLL\\CrowdFunding.BLL.csproj",
       "projectName": "CrowdFunding.BLL",
-      "projectPath": "C:\\Users\\paqua\\source\\repos\\CrowdFunding\\CrowdFunding.BLL\\CrowdFunding.BLL.csproj",
-      "packagesPath": "C:\\Users\\paqua\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\paqua\\source\\repos\\CrowdFunding\\CrowdFunding.BLL\\obj\\",
+      "projectPath": "D:\\Visual studio Exo\\Projet_Vacance\\CrowndFunding\\CrowdFunding.BLL\\CrowdFunding.BLL.csproj",
+      "packagesPath": "C:\\Users\\adrie\\.nuget\\packages\\",
+      "outputPath": "D:\\Visual studio Exo\\Projet_Vacance\\CrowndFunding\\CrowdFunding.BLL\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\paqua\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\adrie\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -58,8 +53,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\paqua\\source\\repos\\CrowdFunding\\CrowdFunding.DAL.Ado\\CrowdFunding.DAL.Ado.csproj": {
-              "projectPath": "C:\\Users\\paqua\\source\\repos\\CrowdFunding\\CrowdFunding.DAL.Ado\\CrowdFunding.DAL.Ado.csproj"
+            "D:\\Visual studio Exo\\Projet_Vacance\\CrowndFunding\\CrowdFunding.DAL.Ado\\CrowdFunding.DAL.Ado.csproj": {
+              "projectPath": "D:\\Visual studio Exo\\Projet_Vacance\\CrowndFunding\\CrowdFunding.DAL.Ado\\CrowdFunding.DAL.Ado.csproj"
             }
           }
         }
@@ -88,7 +83,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

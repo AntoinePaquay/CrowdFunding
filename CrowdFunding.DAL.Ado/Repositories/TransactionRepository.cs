@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DAL
+namespace CrowdFunding.DAL.Repositories
 {
     public class TransactionRepository:RepositoryBase<int,TransactionEntity>,ITransactionRepository
     {
