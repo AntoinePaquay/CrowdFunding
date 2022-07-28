@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using CrowdFunding.BLL.Interfaces;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CrowdFunding.API.Controllers
@@ -7,6 +8,6 @@ namespace CrowdFunding.API.Controllers
     [ApiController]
     public class CommentController : ControllerBase
     {
-
+        private ICommentService commentService;
     }
 }
