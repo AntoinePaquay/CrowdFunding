@@ -38,7 +38,7 @@ namespace CrowdFunding.API.Controllers
         {
             try
             {
-                _articleService.Insert(af.ToModel());
+                _articleService.Insert(af.ToBLL());
                 return Ok();
             }
             catch (Exception e)
@@ -46,7 +46,6 @@ namespace CrowdFunding.API.Controllers
 
                 return BadRequest(e.Message);
             }
-           
         }
 
         // PUT api/<ArticleController>/5
@@ -56,7 +55,7 @@ namespace CrowdFunding.API.Controllers
             if (!ModelState.IsValid) return BadRequest();
             try
             {
-                if (_articleService.Update(articleForm.ToModel()))
+                if (_articleService.Update(articleForm.ToBLL()))
                 {
                     return Ok();
                 }
@@ -83,8 +82,6 @@ namespace CrowdFunding.API.Controllers
             {
                 return NotFound();
             }
-            
-            
         }
     }
 }

@@ -34,7 +34,7 @@ namespace CrowdFunding.API.Controllers
         {
             try
             {
-                _commentService.Insert(cf.ToModel());
+                _commentService.Insert(cf.ToBLL());
                 return Ok();
             }
             catch (Exception e)

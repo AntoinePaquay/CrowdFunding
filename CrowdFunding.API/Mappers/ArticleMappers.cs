@@ -16,7 +16,7 @@ namespace CrowdFunding.API.Mappers
             };
         }
 
-        public static BLL.Entities.ArticleEntity ToModel(this ArticleForm e)
+        public static BLL.Entities.ArticleEntity ToBLL(this ArticleForm e)
         {
             return new BLL.Entities.ArticleEntity
             {
