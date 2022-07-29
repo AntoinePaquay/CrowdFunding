@@ -8,11 +8,13 @@ namespace CrowdFunding.API.Controllers
     [ApiController]
     public class CommentController : ControllerBase
     {
-        private ICommentService commentService;
+        private ICommentService _commentService;
 
-        public CommentController()
+        public CommentController( ICommentService commentService)
         {
-
+            _commentService = commentService;
         }
+
+
     }
 }
