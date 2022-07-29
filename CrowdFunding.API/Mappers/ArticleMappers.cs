@@ -20,10 +20,7 @@ namespace CrowdFunding.API.Mappers
         {
             return new BLL.Entities.ArticleEntity
             {
-                Id = e.Id,
                 ProjectId = e.ProjectId,
-                Created = e.Created,
-                LastModified = e.LastModified,
                 Text = e.Text
             };
         }
