@@ -5,7 +5,7 @@
 	--Receiver
 	[RecipientId] INT NOT NULL,
 	[Text] NVARCHAR(1000),
-	[Created] DateTime2 NOT NULL,
+	[Created] DateTime2 NULL,
 	[LastModified] DateTime2
 
 	CONSTRAINT PK_PrivateMessage PRIMARY KEY ([Id])

@@ -3,7 +3,7 @@
 	[Id] INT IDENTITY (1, 1) NOT NULL,
 	[ProjectId] INT NOT NULL,
 	[Text] NVARCHAR(4000),
-	[Created] DateTime2 NOT NULL,
+	[Created] DateTime2 NULL,
 	[LastModified] DateTime2
 
 	CONSTRAINT PK_Article PRIMARY KEY ([Id]),

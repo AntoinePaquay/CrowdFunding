@@ -4,7 +4,7 @@
 	[MemberId] INT NOT NULL,
 	[ProjectId] INT NOT NULL,
 	[Amount] SMALLMONEY NOT NULL,
-	[Created] DateTime2 NOT NULL,
+	[Created] DateTime2 NULL,
 	[LastModified] DateTime2
 
 	CONSTRAINT PK_Transaction PRIMARY KEY ([Id])

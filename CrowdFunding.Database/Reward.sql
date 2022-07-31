@@ -7,7 +7,7 @@
 	[Stock] INT NULL,
 	[ProjectId] INT NOT NULL,
 	[Delivery] Date,
-	[Created] DateTime2 NOT NULL,
+	[Created] DateTime2 NULL,
 	[LastModified] DateTime2
 
 	CONSTRAINT PK_Reward PRIMARY KEY([Id])

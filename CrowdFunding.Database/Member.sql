@@ -8,7 +8,7 @@
 	[PasswordHash] CHAR(97) NOT NULL,
 	[BirthDate] DATE NOT NULL,
 	[Image] VARCHAR(200) NULL,
-	[Created] DateTime2 NOT NULL,
+	[Created] DateTime2 NULL,
 	[LastModified] DateTime2 NULL
 
 	CONSTRAINT PK_Member PRIMARY KEY ([Id])
