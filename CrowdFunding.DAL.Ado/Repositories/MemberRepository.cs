@@ -20,7 +20,7 @@ namespace CrowdFunding.DAL.Repositories
         {
             IDbCommand cmd = _Connection.CreateCommand();
 
-            cmd.CommandText = "INSERT INTO Memmber([LastName], [FirstName], [UserName], [Email], " +
+            cmd.CommandText = "INSERT INTO Member([LastName], [FirstName], [UserName], [Email], " +
                               "[PasswordHash], [BirthDate], [Image], [RegisterDate], [Created], [LastModified])" +
                               "OUTPUT insert.[Id]" +
                               "Values(@LastName, @FirstName, @UserName, @Email, @Pwd, @BD, @Img)";
