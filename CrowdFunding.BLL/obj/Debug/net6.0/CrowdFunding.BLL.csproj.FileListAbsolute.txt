@@ -10,6 +10,6 @@ C:\Users\paqua\source\repos\CrowdFunding\CrowdFunding.BLL\obj\Debug\net6.0\Crowd
 C:\Users\paqua\source\repos\CrowdFunding\CrowdFunding.BLL\obj\Debug\net6.0\refint\CrowdFunding.BLL.dll
 C:\Users\paqua\source\repos\CrowdFunding\CrowdFunding.BLL\obj\Debug\net6.0\CrowdFunding.BLL.pdb
 C:\Users\paqua\source\repos\CrowdFunding\CrowdFunding.BLL\obj\Debug\net6.0\ref\CrowdFunding.BLL.dll
-C:\Users\paqua\source\repos\CrowdFunding\CrowdFunding.BLL\bin\Debug\net6.0\CrowdFunding.DAL.dll
-C:\Users\paqua\source\repos\CrowdFunding\CrowdFunding.BLL\bin\Debug\net6.0\CrowdFunding.DAL.pdb
 C:\Users\paqua\source\repos\CrowdFunding\CrowdFunding.BLL\obj\Debug\net6.0\CrowdFunding.BLL.csproj.CopyComplete
+C:\Users\paqua\source\repos\CrowdFunding\CrowdFunding.BLL\bin\Debug\net6.0\CrowdFunding.DAL.Ado.dll
+C:\Users\paqua\source\repos\CrowdFunding\CrowdFunding.BLL\bin\Debug\net6.0\CrowdFunding.DAL.Ado.pdb

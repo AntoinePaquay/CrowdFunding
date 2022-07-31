@@ -260,6 +260,6 @@ C:\Users\paqua\source\repos\CrowdFunding\CrowdFunding.API\bin\Debug\net6.0\runti
 C:\Users\paqua\source\repos\CrowdFunding\CrowdFunding.API\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\paqua\source\repos\CrowdFunding\CrowdFunding.API\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\paqua\source\repos\CrowdFunding\CrowdFunding.API\bin\Debug\net6.0\CrowdFunding.BLL.dll
-C:\Users\paqua\source\repos\CrowdFunding\CrowdFunding.API\bin\Debug\net6.0\CrowdFunding.DAL.dll
 C:\Users\paqua\source\repos\CrowdFunding\CrowdFunding.API\bin\Debug\net6.0\CrowdFunding.BLL.pdb
-C:\Users\paqua\source\repos\CrowdFunding\CrowdFunding.API\bin\Debug\net6.0\CrowdFunding.DAL.pdb
+C:\Users\paqua\source\repos\CrowdFunding\CrowdFunding.API\bin\Debug\net6.0\CrowdFunding.DAL.Ado.dll
+C:\Users\paqua\source\repos\CrowdFunding\CrowdFunding.API\bin\Debug\net6.0\CrowdFunding.DAL.Ado.pdb

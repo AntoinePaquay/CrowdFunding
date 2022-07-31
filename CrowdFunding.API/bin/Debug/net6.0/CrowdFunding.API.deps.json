@@ -2259,19 +2259,15 @@
       },
       "CrowdFunding.BLL/1.0.0": {
         "dependencies": {
-          "CrowdFunding.DAL": "1.0.0"
+          "CrowdFunding.DAL.Ado": "1.0.0"
         },
         "runtime": {
           "CrowdFunding.BLL.dll": {}
         }
       },
-      "CrowdFunding.DAL/1.0.0": {
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": "6.0.7",
-          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.7"
-        },
+      "CrowdFunding.DAL.Ado/1.0.0": {
         "runtime": {
-          "CrowdFunding.DAL.dll": {}
+          "CrowdFunding.DAL.Ado.dll": {}
         }
       }
     }
@@ -3526,7 +3522,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "CrowdFunding.DAL/1.0.0": {
+    "CrowdFunding.DAL.Ado/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

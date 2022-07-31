@@ -23,7 +23,7 @@ namespace CrowdFunding.DAL.Repositories
             cmd.CommandText = "INSERT INTO Memmber([LastName], [FirstName], [UserName], [Email], " +
                               "[PasswordHash], [BirthDate], [Image], [RegisterDate], [Created], [LastModified])" +
                               "OUTPUT insert.[Id]" +
-                              "Values(@LastName, @FirstName, @UserName, @Email, @Pwd, @BD, @Img, @RegiDa)";
+                              "Values(@LastName, @FirstName, @UserName, @Email, @Pwd, @BD, @Img)";
 
 
             AddParameter(cmd, "@LastName",entity.LastName );
