@@ -4,8 +4,7 @@
 	[MemberId] INT NOT NULL,
 	[ProjectId] INT NOT NULL,
 	[Amount] DECIMAL NOT NULL,
-	[Created] DateTime2 NULL,
-	[LastModified] DateTime2
+	[Created] DateTime2 NULL
 
 	CONSTRAINT PK_Transaction PRIMARY KEY ([Id])
 	CONSTRAINT FK_Transaction_Member FOREIGN KEY ([MemberId]) REFERENCES [Member]([Id])
