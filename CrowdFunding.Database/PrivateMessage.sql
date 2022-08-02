@@ -2,11 +2,10 @@
 (
 	[Id] INT NOT NULL IDENTITY,
 	[SenderId] INT NOT NULL,
-	--Receiver
 	[RecipientId] INT NOT NULL,
 	[Text] NVARCHAR(1000),
-	[Created] DateTime2 NULL,
-	[LastModified] DateTime2
+	[Created] DateTime2 NULL
+	CONSTRAINT DF_PrivateMessage_Created DEFAULT (SYSDATETIME()),
 
 	CONSTRAINT PK_PrivateMessage PRIMARY KEY ([Id])
 )
