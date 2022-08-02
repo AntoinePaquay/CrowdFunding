@@ -8,11 +8,13 @@
 	[PasswordHash] CHAR(97) NOT NULL,
 	[BirthDate] DATE NOT NULL,
 	[Image] VARCHAR(200) NULL,
-	[Created] DateTime2 NULL,
-	[LastModified] DateTime2 NULL
+	[Created] DateTime2 NULL
+	CONSTRAINT DF_Member_Created DEFAULT (SYSDATETIME()),
+	[LastLogin] DateTime NULL,
+	[LastModified] DateTime2 NULL,
 
-	CONSTRAINT PK_Member PRIMARY KEY ([Id])
-	CONSTRAINT UK_Member_Email UNIQUE ([Email])
-	CONSTRAINT UK_Member_Username UNIQUE ([Username])
-	CONSTRAINT DF_Member_Created DEFAULT (SYSDATETIME())
+	CONSTRAINT PK_Member PRIMARY KEY ([Id]),
+	CONSTRAINT UK_Member_Email UNIQUE ([Email]),
+	CONSTRAINT UK_Member_Username UNIQUE ([Username]),
+	
 )

@@ -3,7 +3,7 @@
 	[Id] INT NOT NULL IDENTITY (1, 1),
 	[MemberId] INT NOT NULL,
 	[ProjectId] INT NOT NULL,
-	[Amount] SMALLMONEY NOT NULL,
+	[Amount] DECIMAL NOT NULL,
 	[Created] DateTime2 NULL,
 	[LastModified] DateTime2
 
