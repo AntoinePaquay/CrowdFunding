@@ -3,13 +3,14 @@
 	[Id] INT NOT NULL IDENTITY (1, 1),
 	[Name] NVARCHAR(150) NOT NULL,
 	[Description] NVARCHAR(500),
-	[Opening] DateTime NOT NULL,
-	[Closing] DateTime NOT NULL,
-	[Created] DateTime 
-	CONSTRAINT DF_Project_Created DEFAULT (SYSDATETIME()),
-	[LastModified] DateTime,
+	[Opening] DateTime2 NOT NULL,
+	[Closing] DateTime2 NOT NULL,
+	[Goal] DECIMAL (12, 2),
 	[MemberId] INT NOT NULL,
-	[ProjectCategoryId] INT NOT NULL
+	[ProjectCategoryId] INT NOT NULL,
+
+	[Created] DateTime2
+	CONSTRAINT DF_Project_Created DEFAULT (SYSDATETIME()),
 
 	CONSTRAINT PK_Project PRIMARY KEY ([Id]),
 	CONSTRAINT FK_Project_Member FOREIGN KEY ([MemberId]) REFERENCES Member([Id]),

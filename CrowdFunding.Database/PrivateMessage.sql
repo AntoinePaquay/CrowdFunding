@@ -4,6 +4,7 @@
 	[SenderId] INT NOT NULL,
 	[RecipientId] INT NOT NULL,
 	[Text] NVARCHAR(1000),
+
 	[Created] DateTime2 NULL
 	CONSTRAINT DF_PrivateMessage_Created DEFAULT (SYSDATETIME()),
 

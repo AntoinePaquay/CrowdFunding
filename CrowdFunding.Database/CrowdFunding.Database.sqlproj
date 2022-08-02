@@ -67,5 +67,9 @@
     <Build Include="Comment.sql" />
     <Build Include="PrivateMessage.sql" />
     <Build Include="ProjectCategory.sql" />
+    <Build Include="Country.sql" />
+    <Build Include="ProjectStatus.sql" />
+    <Build Include="ProjectStatusHistory.sql" />
+    <Build Include="ParameterHistory.sql" />
   </ItemGroup>
 </Project>

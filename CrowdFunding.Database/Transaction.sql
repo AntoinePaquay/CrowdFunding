@@ -4,6 +4,7 @@
 	[MemberId] INT NOT NULL,
 	[ProjectId] INT NOT NULL,
 	[Amount] DECIMAL NOT NULL,
+
 	[Created] DateTime2 NULL
 	CONSTRAINT DF_Transaction_Created DEFAULT (SYSDATETIME())
 	CONSTRAINT PK_Transaction PRIMARY KEY ([Id])
