@@ -5,7 +5,7 @@
 	[ProjectId] INT NOT NULL,
 	[Amount] DECIMAL NOT NULL,
 	[Created] DateTime2 NULL
-
+	CONSTRAINT DF_Transaction_Created DEFAULT (SYSDATETIME())
 	CONSTRAINT PK_Transaction PRIMARY KEY ([Id])
 	CONSTRAINT FK_Transaction_Member FOREIGN KEY ([MemberId]) REFERENCES [Member]([Id])
 	CONSTRAINT FK_Transaction_Project FOREIGN KEY ([ProjectId]) REFERENCES [Project]([Id])
