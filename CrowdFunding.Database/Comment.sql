@@ -4,7 +4,8 @@
 	[Text] NVARCHAR(1000),
 	[MemberId] INT NOT NULL,
 	[ProjectId] INT NOT NULL,
-	[Created] DateTime2 NULL,
+	[Created] DateTime2 NULL
+	CONSTRAINT DF_Comment_Created DEFAULT (SYSDATETIME()),
 	[LastModified] DateTime2
 
 	CONSTRAINT PK_Comment PRIMARY KEY ([Id])
