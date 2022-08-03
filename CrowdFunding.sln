@@ -5,8 +5,6 @@ VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrowdFunding.API", "CrowdFunding.API\CrowdFunding.API.csproj", "{8B278686-C8B9-44F7-AED0-3D78F23AA108}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrowdFunding.DAL.EF", "CrowdFunding.DAL\CrowdFunding.DAL.EF.csproj", "{371746C0-67CD-46FB-8806-9E8310B6B779}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrowdFunding.BLL", "CrowdFunding.BLL\CrowdFunding.BLL.csproj", "{6C53B185-B289-4EE3-ACA9-22592DB51077}"
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "CrowdFunding.Database", "CrowdFunding.Database\CrowdFunding.Database.sqlproj", "{43422455-D9BD-46A9-8DFB-37F1AEB30F67}"
@@ -23,10 +21,6 @@ Global
 		{8B278686-C8B9-44F7-AED0-3D78F23AA108}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B278686-C8B9-44F7-AED0-3D78F23AA108}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B278686-C8B9-44F7-AED0-3D78F23AA108}.Release|Any CPU.Build.0 = Release|Any CPU
-		{371746C0-67CD-46FB-8806-9E8310B6B779}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{371746C0-67CD-46FB-8806-9E8310B6B779}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{371746C0-67CD-46FB-8806-9E8310B6B779}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{371746C0-67CD-46FB-8806-9E8310B6B779}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6C53B185-B289-4EE3-ACA9-22592DB51077}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6C53B185-B289-4EE3-ACA9-22592DB51077}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C53B185-B289-4EE3-ACA9-22592DB51077}.Release|Any CPU.ActiveCfg = Release|Any CPU

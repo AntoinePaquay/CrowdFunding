@@ -57,19 +57,30 @@
   <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
     <Folder Include="Properties" />
+    <Folder Include="Triggers" />
+    <Folder Include="Tables" />
+    <Folder Include="StoredProcedures" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="Member.sql" />
-    <Build Include="Project.sql" />
-    <Build Include="Article.sql" />
-    <Build Include="Transaction.sql" />
-    <Build Include="Reward.sql" />
-    <Build Include="Comment.sql" />
-    <Build Include="PrivateMessage.sql" />
-    <Build Include="ProjectCategory.sql" />
-    <Build Include="Country.sql" />
-    <Build Include="ProjectStatus.sql" />
-    <Build Include="ProjectStatusHistory.sql" />
-    <Build Include="ParameterHistory.sql" />
+    <Build Include="Tables\Transaction.sql" />
+    <Build Include="Tables\Article.sql" />
+    <Build Include="Tables\Comment.sql" />
+    <Build Include="Tables\Country.sql" />
+    <Build Include="Tables\Member.sql" />
+    <Build Include="Triggers\TR_Comment_LastModified.sql" />
+    <Build Include="Triggers\TR_Article_LastModified.sql" />
+    <Build Include="Triggers\TR_Project_ParameterHistory.sql" />
+    <Build Include="StoredProcedures\usp_Member_Login.sql" />
+    <Build Include="StoredProcedures\usp_Member_Get.sql" />
+    <Build Include="Triggers\TR_Project_ProjectStatusHistory.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="Tables\ParameterHistory.sql" />
+    <Build Include="Tables\PrivateMessage.sql" />
+    <Build Include="Tables\Project.sql" />
+    <Build Include="Tables\ProjectCategory.sql" />
+    <Build Include="Tables\ProjectStatus.sql" />
+    <Build Include="Tables\ProjectStatusHistory.sql" />
+    <Build Include="Tables\Reward.sql" />
   </ItemGroup>
 </Project>
