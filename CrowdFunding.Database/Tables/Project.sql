@@ -17,6 +17,7 @@
 	CONSTRAINT FK_Project_Member FOREIGN KEY ([MemberId]) REFERENCES Member([Id]),
 	CONSTRAINT FK_Project_ProjectCategory FOREIGN KEY ([ProjectCategoryId]) REFERENCES ProjectCategory([Id]),
 	CONSTRAINT FK_Project_ProjectStatus FOREIGN KEY ([ProjectStatusId]) REFERENCES ProjectStatus([Id]),
-	CONSTRAINT CK_Project_Closing CHECK (DATEDIFF(day, [Opening], [Closing]) >= 1 AND DATEDIFF(day, [Opening], [Closing]) < 90),
-	CONSTRAINT CK_Project_Opening CHECK ([Opening] > SYSDATETIME())
+	CONSTRAINT CK_Project_Closing CHECK (DATEDIFF(day, [Opening], [Closing]) >= 1 AND DATEDIFF(day, [Opening], [Closing]) <= 90),
+	CONSTRAINT CK_Project_Opening CHECK ([Opening] > SYSDATETIME()),
+	CONSTRAINT CK_Project_Goal CHECK ([Goal] > 1 AND [Goal] <= 10000000)
 )
