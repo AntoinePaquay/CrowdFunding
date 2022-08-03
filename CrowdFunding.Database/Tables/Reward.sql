@@ -8,8 +8,7 @@
 	[ProjectId] INT NOT NULL,
 	[Delivery] Date,
 	[Created] DateTime2 NULL
-	CONSTRAINT DF_Reward_Created DEFAULT (SYSDATETIME()),
-	[LastModified] DateTime2
+	CONSTRAINT DF_Reward_Created DEFAULT (SYSDATETIME())
 
 	CONSTRAINT PK_Reward PRIMARY KEY([Id])
 	CONSTRAINT FK_Reward_Project FOREIGN KEY ([ProjectId]) REFERENCES Project([Id])
