@@ -62,7 +62,7 @@
     <Folder Include="StoredProcedures" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="Tables\Transaction.sql" />
+    <Build Include="Tables\Pledge.sql" />
     <Build Include="Tables\Article.sql" />
     <Build Include="Tables\Comment.sql" />
     <Build Include="Tables\Country.sql" />

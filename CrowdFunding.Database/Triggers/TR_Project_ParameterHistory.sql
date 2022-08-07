@@ -33,8 +33,8 @@ CREATE TRIGGER [TR_Project_ParameterHistory]
 	FOR UPDATE
 	AS 
 	BEGIN
-		DECLARE @Goal DECIMAL = (SELECT FIRST([Goal]) FROM deleted), @Closing DATETIME2 = (SELECT FIRST([Closing]) FROM deleted)
-		IF (@Goal <> (SELECT FIRST([Goal]) FROM inserted) OR @Closing <> (SELECT FIRST([Closing]) FROM inserted))
+		DECLARE @Goal DECIMAL = (SELECT ([Goal]) FROM deleted), @Closing DATETIME2 = (SELECT ([Closing]) FROM deleted)
+		IF (@Goal <> (SELECT ([Goal]) FROM inserted) OR @Closing <> (SELECT ([Closing]) FROM inserted))
 		BEGIN
 			INSERT INTO ParameterHistory([Goal], [Closing])
 			VALUES (@Goal, @Closing);

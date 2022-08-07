@@ -1,6 +1,7 @@
 using CrowdFunding.BLL.Interfaces;
 using CrowdFunding.BLL.Services;
 using CrowdFunding.DAL.Interfaces;
+using CrowdFunding.DAL.Context;
 using CrowdFunding.DAL.Repositories;
 using Microsoft.Data.SqlClient;
 using System.Data;
@@ -34,6 +35,8 @@ builder.Services.AddScoped<IRewardRepository, RewardRepository>();
 
 builder.Services.AddScoped<ITransactionService, TransactionService>();
 builder.Services.AddScoped<ITransactionRepository, TransactionRepository>();
+
+builder.Services.AddDbContextFactory<CrowdfundingContext>(options => options.UseSql)
 
 builder.Services.AddScoped<IDbConnection>(sp =>
 {

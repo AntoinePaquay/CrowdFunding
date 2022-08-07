@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrowdFunding.BLL", "CrowdFu
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "CrowdFunding.Database", "CrowdFunding.Database\CrowdFunding.Database.sqlproj", "{43422455-D9BD-46A9-8DFB-37F1AEB30F67}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrowdFunding.DAL.Ado", "CrowdFunding.DAL.Ado\CrowdFunding.DAL.Ado.csproj", "{DBDB0998-DAFF-4A32-B973-2BCB6435070F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrowdFunding.DAL.EF", "CrowdFunding.DAL.EF\CrowdFunding.DAL.EF.csproj", "{14EECC7E-266A-44FE-BB55-17FBEA916FB2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,10 +31,10 @@ Global
 		{43422455-D9BD-46A9-8DFB-37F1AEB30F67}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43422455-D9BD-46A9-8DFB-37F1AEB30F67}.Release|Any CPU.Build.0 = Release|Any CPU
 		{43422455-D9BD-46A9-8DFB-37F1AEB30F67}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{DBDB0998-DAFF-4A32-B973-2BCB6435070F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DBDB0998-DAFF-4A32-B973-2BCB6435070F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DBDB0998-DAFF-4A32-B973-2BCB6435070F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DBDB0998-DAFF-4A32-B973-2BCB6435070F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14EECC7E-266A-44FE-BB55-17FBEA916FB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14EECC7E-266A-44FE-BB55-17FBEA916FB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14EECC7E-266A-44FE-BB55-17FBEA916FB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14EECC7E-266A-44FE-BB55-17FBEA916FB2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
