@@ -1,7 +1,7 @@
 ﻿CREATE TABLE [dbo].[Comment]
 (
 	[Id] INT NOT NULL IDENTITY,
-	[Text] NVARCHAR(1000),
+	[Text] NVARCHAR(1000) NOT NULL,
 	[MemberId] INT NOT NULL,
 	[ProjectId] INT NOT NULL,
 

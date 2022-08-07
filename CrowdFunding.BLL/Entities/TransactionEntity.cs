@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CrowdFunding.BLL.Entities
+namespace CrowdFunding.BLL
 {
     public class TransactionEntity : IEntity<int>
     {

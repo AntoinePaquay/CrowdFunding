@@ -8,9 +8,9 @@ namespace CrowdFunding.BLL.Mappers
 {
     public static class ArticleMappers
     {
-        public static BLL.Entities.ArticleEntity ToBLL(this DAL.Entities.ArticleEntity e)
+        public static BLL.ArticleEntity ToBLL(this DAL.Article e)
         {
-            return new BLL.Entities.ArticleEntity()
+            return new BLL.ArticleEntity()
             {
                 Id = e.Id,
                 Created = e.Created,
@@ -20,9 +20,9 @@ namespace CrowdFunding.BLL.Mappers
             };
         }
 
-        public static DAL.Entities.ArticleEntity ToDAL(this BLL.Entities.ArticleEntity e)
+        public static DAL.Article ToDAL(this BLL.ArticleEntity e)
         {
-            return new DAL.Entities.ArticleEntity()
+            return new DAL.Article()
             {
                 Id = e.Id,
                 Created = e.Created,

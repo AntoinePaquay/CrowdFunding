@@ -32,8 +32,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\paqua\\source\\repos\\CrowdFunding\\CrowdFunding.DAL.Ado\\CrowdFunding.DAL.Ado.csproj": {
-                "projectPath": "C:\\Users\\paqua\\source\\repos\\CrowdFunding\\CrowdFunding.DAL.Ado\\CrowdFunding.DAL.Ado.csproj"
+              "C:\\Users\\paqua\\source\\repos\\CrowdFunding\\CrowdFunding.DAL.EF\\CrowdFunding.DAL.EF.csproj": {
+                "projectPath": "C:\\Users\\paqua\\source\\repos\\CrowdFunding\\CrowdFunding.DAL.EF\\CrowdFunding.DAL.EF.csproj"
               }
             }
           }
@@ -66,14 +66,14 @@
         }
       }
     },
-    "C:\\Users\\paqua\\source\\repos\\CrowdFunding\\CrowdFunding.DAL.Ado\\CrowdFunding.DAL.Ado.csproj": {
+    "C:\\Users\\paqua\\source\\repos\\CrowdFunding\\CrowdFunding.DAL.EF\\CrowdFunding.DAL.EF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\paqua\\source\\repos\\CrowdFunding\\CrowdFunding.DAL.Ado\\CrowdFunding.DAL.Ado.csproj",
-        "projectName": "CrowdFunding.DAL.Ado",
-        "projectPath": "C:\\Users\\paqua\\source\\repos\\CrowdFunding\\CrowdFunding.DAL.Ado\\CrowdFunding.DAL.Ado.csproj",
+        "projectUniqueName": "C:\\Users\\paqua\\source\\repos\\CrowdFunding\\CrowdFunding.DAL.EF\\CrowdFunding.DAL.EF.csproj",
+        "projectName": "CrowdFunding.DAL.EF",
+        "projectPath": "C:\\Users\\paqua\\source\\repos\\CrowdFunding\\CrowdFunding.DAL.EF\\CrowdFunding.DAL.EF.csproj",
         "packagesPath": "C:\\Users\\paqua\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\paqua\\source\\repos\\CrowdFunding\\CrowdFunding.DAL.Ado\\obj\\",
+        "outputPath": "C:\\Users\\paqua\\source\\repos\\CrowdFunding\\CrowdFunding.DAL.EF\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -105,6 +105,22 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

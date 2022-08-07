@@ -2,8 +2,8 @@
 (
 	[Id] INT IDENTITY (1, 1) NOT NULL,
 	[ProjectId] INT NOT NULL,
-	[Name] VARCHAR(50), 
-	[Text] NVARCHAR(4000),
+	[Name] VARCHAR(50) NOT NULL, 
+	[Text] NVARCHAR(4000) NOT NULL,
 
 	[Created] DateTime2 NULL
 	CONSTRAINT DF_Article_Created DEFAULT (SYSDATETIME()),

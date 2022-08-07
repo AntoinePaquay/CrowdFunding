@@ -8,9 +8,9 @@ namespace CrowdFunding.BLL.Mappers
 {
     public static class CommentMappers
     {
-        public static BLL.Entities.CommentEntity ToBLL(this DAL.Entities.CommentEntity e)
+        public static BLL.CommentEntity ToBLL(this DAL.Comment e)
         {
-            return new BLL.Entities.CommentEntity
+            return new BLL.CommentEntity
             {
                 Id = e.Id,
                 Created = e.Created,
@@ -21,9 +21,9 @@ namespace CrowdFunding.BLL.Mappers
             };
         }
 
-        public static DAL.Entities.CommentEntity ToDAL(this BLL.Entities.CommentEntity e)
+        public static DAL.Comment ToDAL(this BLL.CommentEntity e)
         {
-            return new DAL.Entities.CommentEntity
+            return new DAL.Comment
             {
                 Id = e.Id,
                 Created = e.Created,

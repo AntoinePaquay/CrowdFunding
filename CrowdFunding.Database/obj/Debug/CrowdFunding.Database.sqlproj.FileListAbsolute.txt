@@ -10,3 +10,7 @@ C:\Users\paqua\source\repos\CrowdFunding\CrowdFunding.Database\bin\Debug\Databas
 C:\Users\paqua\source\repos\CrowdFunding\CrowdFunding.Database\obj\Debug\CrowdFunding.Database.sqlproj.AssemblyReference.cache
 C:\Users\paqua\source\repos\CrowdFunding\CrowdFunding.Database\obj\Debug\Database.dll
 C:\Users\paqua\source\repos\CrowdFunding\CrowdFunding.Database\obj\Debug\Database.pdb
+C:\Users\paqua\source\repos\CrowdFunding\CrowdFunding.Database\obj\Debug\Model.xml
+C:\Users\paqua\source\repos\CrowdFunding\CrowdFunding.Database\obj\Debug\refactor.xml
+C:\Users\paqua\source\repos\CrowdFunding\CrowdFunding.Database\obj\Debug\postdeploy.sql
+C:\Users\paqua\source\repos\CrowdFunding\CrowdFunding.Database\obj\Debug\predeploy.sql

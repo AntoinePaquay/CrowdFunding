@@ -3140,7 +3140,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "CrowdFunding.DAL.Ado": "1.0.0"
+          "CrowdFunding.DAL.EF": "1.0.0"
         },
         "compile": {
           "bin/placeholder/CrowdFunding.BLL.dll": {}
@@ -3149,14 +3149,18 @@
           "bin/placeholder/CrowdFunding.BLL.dll": {}
         }
       },
-      "CrowdFunding.DAL.Ado/1.0.0": {
+      "CrowdFunding.DAL.EF/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.7",
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.7"
+        },
         "compile": {
-          "bin/placeholder/CrowdFunding.DAL.Ado.dll": {}
+          "bin/placeholder/CrowdFunding.DAL.EF.dll": {}
         },
         "runtime": {
-          "bin/placeholder/CrowdFunding.DAL.Ado.dll": {}
+          "bin/placeholder/CrowdFunding.DAL.EF.dll": {}
         }
       }
     }
@@ -9679,10 +9683,10 @@
       "path": "../CrowdFunding.BLL/CrowdFunding.BLL.csproj",
       "msbuildProject": "../CrowdFunding.BLL/CrowdFunding.BLL.csproj"
     },
-    "CrowdFunding.DAL.Ado/1.0.0": {
+    "CrowdFunding.DAL.EF/1.0.0": {
       "type": "project",
-      "path": "../CrowdFunding.DAL.Ado/CrowdFunding.DAL.Ado.csproj",
-      "msbuildProject": "../CrowdFunding.DAL.Ado/CrowdFunding.DAL.Ado.csproj"
+      "path": "../CrowdFunding.DAL.EF/CrowdFunding.DAL.EF.csproj",
+      "msbuildProject": "../CrowdFunding.DAL.EF/CrowdFunding.DAL.EF.csproj"
     }
   },
   "projectFileDependencyGroups": {
